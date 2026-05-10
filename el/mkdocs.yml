@@ -1,5 +1,7 @@
-site_name: My Docs
+site_name: Calvin
 nav:
   - Home: index.md
   - About: about.md
-  - el: el.md
+  - Link Tree: el.md
+theme:
+  name: material
