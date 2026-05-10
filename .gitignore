@@ -67,6 +67,6 @@ venv/
 ENV/
 
 # MkDocs documentation
-site*/
+site/
 # python3 -m venv .venv_mkdocs
 .venv_mkdocs
