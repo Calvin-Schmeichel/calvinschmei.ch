@@ -1,11 +1,12 @@
 site_name: Calvin
 nav:
-  - About: about.md
-  - Link Tree: el.md
-  - MkDocs: mkdocs.md
+  - Main:
+    - About: el/about.md
+    - Link Tree: el/index.md
+    - MkDocs: el/mkdocs.md
 theme:
   name: material
 plugins:
   - redirects:
       redirect_maps:
-        'index.md': 'el.md'
+        'index.md': 'el/index.md'
